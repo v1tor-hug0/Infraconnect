@@ -1,46 +1,4 @@
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    padding: 5px;
-    text-align: center;
-    border-radius: 5px;
-    margin: 15px 50px;
-    
-}
 
-.ecoponto-menu {
-    color: #48B508;
-}
-
-.logo-pequena{
-    border: none;
-}
-
-.link-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-size: 1.8rem;
-    padding: 5px 20px;
-    width: 200px;
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-.ecoponto-menu:hover
-{
-    color:white;
-}
-
-.link-menu:hover{
-    background-color: gray;
-    color: white;
-    transition: 0.15s ease;
-}
 
 .imagem{
     background-image: url(../assets/banner.png);

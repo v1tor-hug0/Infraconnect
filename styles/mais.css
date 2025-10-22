@@ -1,0 +1,120 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px 50px;
+    
+}
+
+#ativo {
+    background-color: gray;
+    color: white;
+}
+
+
+
+.logo-pequena{
+    border: none;
+}
+
+.link-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    padding: 5px 20px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.ecoponto-menu:hover
+{
+    color:white;
+}
+
+
+
+.link-menu:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.15s ease;
+}
+
+.container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 50px;
+}
+
+.cards-esquerda {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 20vh;
+    gap: 50px;
+    
+}
+
+.cards-direita {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 20vh;
+    gap: 50px;
+}
+
+.card-cima{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-bottom: 15px #53819B solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.card-baixo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-bottom: 15px #53819B solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+#texto-card1 {    
+    display: none;
+}
+
+#texto-card2 {    
+    display: none;
+}
+
+#texto-card3 {    
+    display: none;
+}
+
+#texto-card4 {    
+    display: none;
+}

@@ -94,3 +94,7 @@
     display: flex;
     font-size: 1.2em;
 }
+
+.negrito {
+    font-weight: 700;
+}
