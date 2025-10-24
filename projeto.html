@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/projeto.css">
     <link rel="stylesheet" href="styles/global.css">
-    <title>Document</title>
+    <script defer src="scripts/script.js"></script>
+    <title>Projeto</title>
 </head>
 <body>
-    
+    <header class="menu">
+        <a href="index.html" class="logo-pequena"><img src="assets/logo pequena.svg" alt="" class="logo-pequena"></a>
+        <a href="ecoponto.html" class="link-menu"> <span class="ecoponto-menu">Ecoponto</span></a>
+        <a href="sobre.html" class="link-menu" >Sobre</a>
+        <a href="projeto.html" class="link-menu" id="ativo">Projeto</a>
+        <a href="mais.html" class="link-menu">Mais</a>
+    </header>
+    <main class="container">
+        <div class="slider">
+  <div class="slides">
+
+    <input type="radio" name="radio-btn" id="radio1" checked>
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+
+    <div class="slide-container">
+      <div class="slide">
+        <img src="assests slider/vitorMexendo.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="assests slider/gente.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="assests slider/dupla.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="assests slider/alberto.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+
+  </div>
+</div>
+
+    </main>
 </body>
 </html>

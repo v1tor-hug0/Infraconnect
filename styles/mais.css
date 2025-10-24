@@ -5,9 +5,8 @@
     gap: 80px;
     padding: 5px;
     text-align: center;
-    border-radius: 5px;
     margin: 15px 50px;
-    
+    border-bottom: 2px solid black;
 }
 
 #ativo {
@@ -54,6 +53,7 @@
     align-items: center;
     width: 100vw;
     gap: 50px;
+    margin-top: 50px;
 }
 
 .cards-esquerda {
@@ -103,18 +103,78 @@
     padding: 20px 0;
 }
 
-#texto-card1 {    
-    display: none;
+.texto-card {
+  display: none;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
 }
 
-#texto-card2 {    
-    display: none;
+/* Mostra o texto quando o mouse passar sobre o card */
+.card-cima:hover .texto-card,
+.card-baixo:hover .texto-card {
+  display: block;
+  opacity: 1;
+  max-height: 300px; /* ajuste conforme o tamanho do conteúdo */
 }
 
-#texto-card3 {    
-    display: none;
+/* Organiza o conteúdo do card verticalmente */
+.card-cima,
+.card-baixo {
+  display: flex;
+  flex-direction: column;  /* empilha título e texto */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid 2px black;
+  border-bottom: 15px #53819B solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
+  transition: transform 0.2s ease;
 }
 
-#texto-card4 {    
-    display: none;
+/* Efeito visual ao passar o mouse */
+.card-cima:hover,
+.card-baixo:hover {
+  transform: scale(1.02);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #b1aead56;
+    width: 83vw;
+    height: 30vh;
+}
+
+.titulo-time {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fotos{
+    display: flex;
+    gap: 40px;
+}
+
+.fotos p {
+    display: flex;
+    justify-content: center;
+}
+
+.foto img {
+    border-radius: 100px;
 }
